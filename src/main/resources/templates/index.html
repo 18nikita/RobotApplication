@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Battery Calculator</title>
+</head>
+<body>
+    <h1>Robot Battery Calculator</h1>
+    <form action="/robot/calculateBattery" method="post">
+        <label for="distance">Distance walked (in Km.):</label>
+        <input type="text" id="distance" name="distance" required><br><br>
+        
+        <label for="weight">Carrying weight (in Kg.):</label>
+        <input type="text" id="weight" name="weight" required><br><br>
+        
+        <input type="submit" value="Calculate Battery">
+    </form>
+</body>
+</html>
